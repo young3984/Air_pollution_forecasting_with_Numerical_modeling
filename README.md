@@ -6,12 +6,12 @@
 - I mainly did numerical modeling.
 
 ### 1. Process
-#### (1) Data
+#### (1) Data [[Data]](https://github.com/young3984/Air_pollution_forecasting_with_Numerical_modeling_and_ML/tree/master/polution_data)
 - Using the fine dust concentration, wind speed wind direction data, and regional latitude data per hour by region.
 ![image](https://user-images.githubusercontent.com/68014282/123036041-5e8c5400-d427-11eb-99e2-669d832658b2.png)
-- Wind data is interpolated using cubic interpolation.
+- Wind data is interpolated using cubic interpolation. [[Code]](https://github.com/young3984/Air_pollution_forecasting_with_Numerical_modeling_and_ML/tree/master/interpolation/Interpolation_wind)
 ![image](https://user-images.githubusercontent.com/68014282/123040080-22a8bd00-d42e-11eb-85db-5963589ed4c1.png)
-- The fine dust concentration data were interpolated using IDW.
+- The fine dust concentration data were interpolated using IDW. [[Code]](https://github.com/young3984/Air_pollution_forecasting_with_Numerical_modeling_and_ML/tree/master/interpolation/Interpolation_air_pollution)
 ![image](https://user-images.githubusercontent.com/68014282/123040219-613e7780-d42e-11eb-84e9-aab0c7792787.png)
 
 ```
@@ -19,7 +19,7 @@
 [2] 에어코리아, https://www.airkorea.or.kr/index
 ```
 
-#### (2) Numerical Modeling
+#### (2) Numerical Modeling [[Codes]](https://github.com/young3984/Air_pollution_forecasting_with_Numerical_modeling_and_ML/tree/master/simulation)
 - Assume that there are no chemical changes between substances in the air.
 - The Convection-Diffusion equation was used.
     - Convection equation
@@ -44,6 +44,7 @@
 - One kind of RNN that can be taught long-term dependence
 
 ![image](https://user-images.githubusercontent.com/68014282/123517186-8c4cf380-d6da-11eb-8636-cac99d23e317.png)
+- For more detailed process, please refer to the [PPT](https://github.com/young3984/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/PPT/%EC%88%98%EC%B9%98%20%EB%AA%A8%EB%8D%B8%EB%A7%81%20%EB%B0%8F%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EB%8C%80%EA%B8%B0%20%EC%98%A4%EC%97%BC%20%EC%98%88%EC%B8%A1%20-%20%EC%98%A4%EC%84%9C%EC%98%81%2C%20%EC%8B%A0%EC%98%81%EB%AF%BC.pdf)
 
 ### 2. Result
 #### (1) Numerical Modeling
@@ -64,7 +65,7 @@
 > Mesh
 
 ![image](https://user-images.githubusercontent.com/68014282/123517709-81479280-d6dd-11eb-8d32-2548485c240e.png)
-
+- Please refer to the [PPT](https://github.com/young3984/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/PPT/%EC%88%98%EC%B9%98%20%EB%AA%A8%EB%8D%B8%EB%A7%81%20%EB%B0%8F%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EB%8C%80%EA%B8%B0%20%EC%98%A4%EC%97%BC%20%EC%98%88%EC%B8%A1%20-%20%EC%98%A4%EC%84%9C%EC%98%81%2C%20%EC%8B%A0%EC%98%81%EB%AF%BC.pdf) for more detailed results.
 ### 3. Reference
 ```
 [1] 김영록, 김준석, 유창우, 이승규, 정다래, 최용호, 허영진, [IndustrialMathematics_Main], 경문사, 2017
