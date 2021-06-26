@@ -39,11 +39,6 @@
     - result
     
     ![image](https://user-images.githubusercontent.com/68014282/123516975-c964b600-d6d9-11eb-9e1c-a890c2f6ba7d.png)
-#### (3) Machine Learning
-- LSTM is used(Long Short Term Memory)
-- One kind of RNN that can be taught long-term dependence
-
-![image](https://user-images.githubusercontent.com/68014282/123517186-8c4cf380-d6da-11eb-8636-cac99d23e317.png)
 - For more detailed process, please refer to the [PPT](https://github.com/young3984/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/PPT/%EC%88%98%EC%B9%98%20%EB%AA%A8%EB%8D%B8%EB%A7%81%20%EB%B0%8F%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EB%8C%80%EA%B8%B0%20%EC%98%A4%EC%97%BC%20%EC%98%88%EC%B8%A1%20-%20%EC%98%A4%EC%84%9C%EC%98%81%2C%20%EC%8B%A0%EC%98%81%EB%AF%BC.pdf)
 
 ### 2. Result
@@ -56,15 +51,6 @@
 
 ![mesh](https://user-images.githubusercontent.com/68014282/123517370-7db30c00-d6db-11eb-82a7-940c04df2b77.gif)
 
-#### (2) LSTM
-> Contour
-
-![image](https://user-images.githubusercontent.com/68014282/123517724-9a504380-d6dd-11eb-8c0d-4b4284c54219.png)
-
-
-> Mesh
-
-![image](https://user-images.githubusercontent.com/68014282/123517709-81479280-d6dd-11eb-8d32-2548485c240e.png)
 - Please refer to the [PPT](https://github.com/young3984/Air_pollution_forecasting_with_Numerical_modeling_and_ML/blob/master/PPT/%EC%88%98%EC%B9%98%20%EB%AA%A8%EB%8D%B8%EB%A7%81%20%EB%B0%8F%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%EB%8C%80%EA%B8%B0%20%EC%98%A4%EC%97%BC%20%EC%98%88%EC%B8%A1%20-%20%EC%98%A4%EC%84%9C%EC%98%81%2C%20%EC%8B%A0%EC%98%81%EB%AF%BC.pdf) for more detailed results.
 ### 3. Reference
 ```
