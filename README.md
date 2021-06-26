@@ -1,5 +1,5 @@
 # Air pollution forecasting with Numerical modeling (20200902 ~ 20201008)
-## Using convection-diffusion Equations and LSTM to make predictions.
+## Using convection-diffusion Equations.
 - Scientific computing lab project for academic conference
 - Silver award in natural science academic conference
 - This repo maintained by 신영민, [오서영](https://github.com/OH-Seoyoung).
