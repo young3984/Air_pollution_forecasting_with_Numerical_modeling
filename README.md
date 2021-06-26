@@ -1,4 +1,4 @@
-# Air pollution forecasting with Numerical modeling and ML (20200902 ~ 20201008)
+# Air pollution forecasting with Numerical modeling (20200902 ~ 20201008)
 ## Using convection-diffusion Equations and LSTM to make predictions.
 - Scientific computing lab project for academic conference
 - Silver award in natural science academic conference
